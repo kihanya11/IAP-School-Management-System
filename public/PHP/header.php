@@ -61,7 +61,7 @@
 							<li><span class="spcl"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Student Area</span></li>
 								<ul>
 									<li><a href="st_login.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Something</a></li>
-									<li><a href="st_reg.php"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a></li>
+									<li><a href="\register"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a></li>
 									<li><a href="st_profile.php"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
 									<li><a href="#"><i class="fa fa-outdent" aria-hidden="true"></i> Result</a></li>
 								</ul>
