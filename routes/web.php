@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\pagecontroller;
 use App\Http\Controllers\controller;
 use App\Http\Controllers\coursecontroller;
+use App\Http\Controllers\AuthController;
 
 
 
@@ -28,3 +29,11 @@ Route::view('list','list');
 Route::get('list',[coursecontroller::class, 'show']);
 
 
+Route::view('log','log');
+Route::post('log',[AuthController::class, 'loginprocess']);
+
+Route::get('/registration',[AuthController::class, 'registration']);
+Route::post('/registration',[AuthController::class, 'registeruser']);
+
+Route::get('/admin',[AuthController::class, 'admin']);
+Route::get('/faculty',[AuthController::class, 'faculty']);

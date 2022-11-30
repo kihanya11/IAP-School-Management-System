@@ -3,20 +3,8 @@
 @section('content')
 
                 <!--<div class="card-header">{{ __('Dashboard') }} </div>-->
-
-                <?php
-	$pageTitle = "Dashboard";
-?>
-<!Doctype html>
-<html class="no-js" lang="">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title><?php echo $pageTitle; ?></title>
-        <meta name="description" content="University Management system">
-	
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico in the root directory -->
+
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -24,15 +12,17 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <header class="container header_area fix" >
+                <?php
+	$pageTitle = "Middleview";
+?>
+     <header class="container header_area fix" >
 			<div id="sticker">
-				
+				<div class="head">
+					
+					<div class="uniname fix">
+						<h2>Middleview University Management System</h2>
+					</div>
+				</div>
 				<div class="menu fix">
 					<div class="dateshow fix"><p><?php echo "Date : ".date("d M Y"); ?></p></div>
 				<!--	<ul>
@@ -48,8 +38,6 @@
 			<div id="stickerside">
 				<div class="sidebar fix" >
 						<ul>
-							
-							
 							<li><span class="spcl"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Student Area</span></li>
 								<ul>
 									<li><a href="list"><i class="fa fa-sign-in" aria-hidden="true"></i> View Course </a></li>
@@ -66,10 +54,11 @@
 				<div class="content fix">
 
 
+
 					
 <?php include "PHP/footer.php"; ?>			
 
-                <div class="card-body">
+--> <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
