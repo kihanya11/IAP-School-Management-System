@@ -30,6 +30,8 @@ return view("auth.student_profile");
             
                }
 
+
+
        
 }
 

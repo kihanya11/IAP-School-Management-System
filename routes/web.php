@@ -13,6 +13,28 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('logout', function () {
+   if (session()->has('user')){
+
+    session()-> pull('user');
+   }
+   
+   
+    return redirect('/');
+});
+
+Route::get('logouts', function () {
+    if (session()->has('user')){
+ 
+     session()-> pull('user');
+    }
+    
+    
+     return redirect('/');
+ });
+
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -37,3 +59,8 @@ Route::post('/registration',[AuthController::class, 'registeruser']);
 
 Route::get('/admin',[AuthController::class, 'admin']);
 Route::get('/faculty',[AuthController::class, 'faculty']);
+
+Route::view('adminlog','adminlog');
+Route::post('adminlog',[AuthController::class, 'adminlogprocess']);
+
+

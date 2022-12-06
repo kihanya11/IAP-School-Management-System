@@ -21,6 +21,8 @@
 					
 					<div class="uniname fix">
 						<h2>Middleview University</h2>
+						<h2>Welcome, {{Session('username')}}</h2>
+
 					</div>
 				</div>
 				<div class="menu fix">
@@ -44,6 +46,7 @@
 									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register student for a course</a></li>
 									<li><a href="\student_profile"><i class="fa fa-user" aria-hidden="true"></i> De-register students</a></li>
 									<li><a href="\credit-card"><i class="fa fa-outdent" aria-hidden="true"></i> Add student</a></li>
+									<li><a href="logout"><i class="fa fa-outdent" aria-hidden="true"></i> Log out</a></li>
 								</ul>
 							
 						

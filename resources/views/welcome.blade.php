@@ -56,10 +56,10 @@
                 </li>
                 
                 <li class="navbar__item">
-                    <a href='log' class="navbar__links">Faculty Login</a>
+                    <a href='log' class="navbar__links">Faculty </a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="register" class="button" id="signup">Register</a>
+                    <a href="adminlog" class="button" id="signup">Administrator</a>
                 </li>
 
             </ul>
