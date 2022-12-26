@@ -32,6 +32,7 @@
 
                 <th><u>Course Name</u></th>
                 <th><u>Course ID</u></th>
+                <th><u>Username</u></th>
              
 
 
@@ -44,6 +45,7 @@
                 <tr>
                     <td>{{$cos['coursename']}}</td>
                     <td>{{$cos['cid']}}</td>
+                    <td>{{$cos['username']}}</td>
                     
 
                 </tr>

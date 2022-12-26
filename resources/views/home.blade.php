@@ -42,8 +42,8 @@
 								<ul>
 									<li><a href="list"><i class="fa fa-sign-in" aria-hidden="true"></i> View Course </a></li>
 									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register for a course</a></li>
-									<li><a href="\student_profile"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
-									<li><a href="\credit-card"><i class="fa fa-outdent" aria-hidden="true"></i> Fees Payment</a></li>
+									<li><a href="student_profile"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+									<li><a href="\credit-card"><i class="fa fa-outdent" aria-hidden="true"></i> View grade</a></li>
 								</ul>
 							
 						

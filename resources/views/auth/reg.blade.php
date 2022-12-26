@@ -14,6 +14,12 @@
 		<form action="" method="post" id="st_form">
 			@csrf
 		<table>
+
+		<tr>
+					<th>Username </th>
+					<td><input type="text" name="username" required /></td>
+				</tr>
+
 				<tr>
 					<th>Course Name: </th>
 					<td><input type="text" name="coursename" required /></td>
@@ -32,6 +38,6 @@
 				</tr>
 			</table>
 		</form>
-        <button><a href="\home"><i class="fa fa-sign-in" aria-hidden="true"></i> Back</a></button>
+    
 	</div>
 

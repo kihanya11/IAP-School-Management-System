@@ -13,7 +13,7 @@ class crudcontroller extends Controller
   function save(Request $req){
 
     $req->validate([
-
+'username'=>'required',
 'coursename'=>'required',
 'cid'=>'required',
 'sid'=>'required'
@@ -22,22 +22,21 @@ class crudcontroller extends Controller
 
 
 $query = DB::table('crud')->insert([
-
+    'username'=>$req->input('username'),
 'coursename'=>$req->input('coursename'),
 'cid'=>$req->input('cid'),
 'sid'=>$req->input('sid'),
 
 
+
 ]);
-/*$course = new Course;
-$course = $req->coursename;
-$course = $req->cid;
-$course = $req->sid;
- echo $course->save();
-*/
+return redirect('reg');
 }
 
 function show(){
+
+
+  
     $data=Course::all();
     return view('course',['course'=>$data]);
     
