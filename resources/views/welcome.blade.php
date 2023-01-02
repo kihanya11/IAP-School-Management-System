@@ -52,7 +52,7 @@
                
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__links">About</a>
+                    <a href="login" class="navbar__links">Student</a>
                 </li>
                 
                 <li class="navbar__item">
@@ -72,7 +72,7 @@
         <div class="hero__container">
             <h1 class="hero__heading">MiddleView University</h1>
             <p class="hero__des"></p>
-            <button class="main__btn"><a href="login">Student Login</a></button>
+            <button class="main__btn"><a href="login">Get started</a></button>
         </div>
     </div>
 

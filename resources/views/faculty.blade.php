@@ -42,10 +42,10 @@
 						<ul>
 							<li><span class="spcl"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Faculty</span></li>
 								<ul>
-									<li><a href="list"><i class="fa fa-sign-in" aria-hidden="true"></i> View Students </a></li>
-									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register student for a course</a></li>
-									<li><a href="\student_profile"><i class="fa fa-user" aria-hidden="true"></i> De-register students</a></li>
-									<li><a href="putmarks"><i class="fa fa-outdent" aria-hidden="true"></i>Put Marks</a></li>
+									<li><a href="list"><i class="fa fa-sign-in" aria-hidden="true"></i> View Students Table </a></li>
+									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register student for a program</a></li>
+									
+						
 									<li><a href="logout"><i class="fa fa-outdent" aria-hidden="true"></i> Log out</a></li>
 								</ul>
 							

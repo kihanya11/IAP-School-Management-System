@@ -42,8 +42,8 @@
 							<li><span class="spcl"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Administrator</span></li>
 								<ul>
 									<li><a href="list"><i class="fa fa-sign-in" aria-hidden="true"></i> View Students </a></li>
-									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register student for a course</a></li>
-									<li><a href="remove"><i class="fa fa-user" aria-hidden="true"></i> De-register students</a></li>
+									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register student to a course</a></li>
+									
 									<li><a href="\register"><i class="fa fa-outdent" aria-hidden="true"></i> Add student</a></li>
 									<li><a href="logout"><i class="fa fa-outdent" aria-hidden="true"></i> Log out</a></li>
 								</ul>

@@ -40,10 +40,10 @@
 						<ul>
 							<li><span class="spcl"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Student Area</span></li>
 								<ul>
-									<li><a href="list"><i class="fa fa-sign-in" aria-hidden="true"></i> View Course </a></li>
-									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register for a course</a></li>
-									<li><a href="student_profile"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
-									<li><a href="\credit-card"><i class="fa fa-outdent" aria-hidden="true"></i> View grade</a></li>
+									<li><a href="list"><i class="fa fa-sign-in" aria-hidden="true"></i> View Enrolled Programs </a></li>
+									<li><a href="\reg"><i class="fa fa-user-plus" aria-hidden="true"></i> Register for a program</a></li>
+									<li><a href="student_profile"><i class="fa fa-user" aria-hidden="true"></i> Student's Table</a></li>
+									
 								</ul>
 							
 						
